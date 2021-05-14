@@ -1,0 +1,12 @@
+{
+    "color":[
+      {
+        "name":"black",
+        "value":"#000000"
+      },
+      {
+        "name":"material_lighter_gray",
+        "value":"#D3D3D3"
+      }
+    ]
+}

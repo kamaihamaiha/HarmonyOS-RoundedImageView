@@ -1,0 +1,23 @@
+apply plugin: 'com.huawei.ohos.hap'
+ohos {
+    compileSdkVersion 5
+    defaultConfig {
+        compatibleSdkVersion 5
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file('../sign/ting_card.p12')
+            storePassword '00000018C5644B33337EB2C319ACB648C299A21CEC1A5F3C799F77147B493B2FED2C022332594A5A'
+            keyAlias = 'ting'
+            keyPassword '00000018A73A7DF3FAE5703E4CD93D20D85F940B398E53CAD1A233211383D693C1F5856176003651'
+            signAlg = 'SHA256withECDSA'
+            profile file('../sign/ting_card_debug_p40Debug.p7b')
+            certpath file('../sign/ting_card.cer')
+        }
+    }
+}
+
+dependencies {
+    implementation project(path: ':roundedimageview')
+}

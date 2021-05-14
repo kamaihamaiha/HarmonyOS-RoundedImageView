@@ -1,0 +1,60 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "RoundedImageView"
+    },
+    {
+      "name": "mainability_description",
+      "value": "hap sample empty page"
+    },
+    {
+      "name": "One",
+      "value": "1. Rectangular Imageview"
+    },
+    {
+      "name": "Two",
+      "value": "2. Rounded Rectangular Imageview"
+    },
+    {
+      "name": "Three",
+      "value": "3. Oval Imageview Center"
+    },
+    {
+      "name": "Four",
+      "value": "4. Oval Imageview Zoom Center"
+    },
+    {
+      "name": "Five",
+      "value": "5. Oval Imageview Stretch"
+    },
+    {
+      "name": "Six",
+      "value": "6. Oval ColorDrawable"
+    },
+    {
+      "name": "Seven",
+      "value": "7. Rounded ColorDrawable"
+    },
+    {
+      "name": "TestCase1",
+      "value": "TestCase1"
+    },
+    {
+      "name": "TestCase2",
+      "value": "TestCase2"
+    },
+    {
+      "name": "TestCase3",
+      "value": "TestCase3"
+    },
+    {
+      "name": "sample_1",
+      "value": "Main test case"
+    },
+    {
+      "name": "sample_2",
+      "value": "XML test case"
+    }
+  ]
+}

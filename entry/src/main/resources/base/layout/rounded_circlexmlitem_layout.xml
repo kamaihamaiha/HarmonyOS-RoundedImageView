@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    xmlns:app="http://schemas.huawei.com/hap/res-auto"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="horizontal_center">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        ohos:id="$+id:two_riv"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:image_src="$media:jellyfish"
+        ohos:orientation="vertical"
+        ohos:top_padding="200vp"
+        app:riv_border_width="3vp"
+        app:riv_border_color="#4CAF50"
+        app:riv_oval="false"
+        />
+
+</DirectionalLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:width="match_parent"
+        ohos:height="match_parent">
+
+    <DirectionalLayout
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:top_margin="10vp"
+            ohos:orientation="vertical">
+
+        <Button
+                ohos:id="$+id:btn_one"
+                ohos:width="match_parent"
+                ohos:height="50vp"
+                ohos:text_size="16fp"
+                ohos:top_margin="15vp"
+                ohos:text_color="$color:black"
+                ohos:text="$string:One"
+                ohos:text_alignment="left"/>
+
+        <Button
+                ohos:id="$+id:btn_two"
+                ohos:width="match_parent"
+                ohos:height="50vp"
+                ohos:text_size="16fp"
+                ohos:top_margin="10vp"
+                ohos:text_color="$color:black"
+                ohos:text="$string:Two"
+                ohos:text_alignment="left"/>
+
+        <Button
+                ohos:id="$+id:btn_three"
+                ohos:width="match_parent"
+                ohos:height="50vp"
+                ohos:text_size="16fp"
+                ohos:top_margin="10vp"
+                ohos:text_color="$color:black"
+                ohos:text="$string:Three"
+                ohos:text_alignment="left"/>
+
+        <Button
+                ohos:id="$+id:btn_four"
+                ohos:width="match_parent"
+                ohos:height="50vp"
+                ohos:text_size="16fp"
+                ohos:top_margin="10vp"
+                ohos:text_color="$color:black"
+                ohos:text="$string:Four"
+                ohos:text_alignment="left"/>
+
+        <Button
+                ohos:id="$+id:btn_five"
+                ohos:width="match_parent"
+                ohos:height="50vp"
+                ohos:text_size="16fp"
+                ohos:top_margin="10vp"
+                ohos:text_color="$color:black"
+                ohos:text="$string:Five"
+                ohos:text_alignment="left"/>
+
+        <Button
+            ohos:id="$+id:btn_six"
+            ohos:width="match_parent"
+            ohos:height="50vp"
+            ohos:text_size="16fp"
+            ohos:top_margin="10vp"
+            ohos:text_color="$color:black"
+            ohos:text="$string:Six"
+            ohos:text_alignment="left"/>
+
+        <Button
+            ohos:id="$+id:btn_seven"
+            ohos:width="match_parent"
+            ohos:height="50vp"
+            ohos:text_size="16fp"
+            ohos:top_margin="10vp"
+            ohos:text_color="$color:black"
+            ohos:text="$string:Seven"
+            ohos:text_alignment="left"/>
+
+    </DirectionalLayout>
+</ScrollView>

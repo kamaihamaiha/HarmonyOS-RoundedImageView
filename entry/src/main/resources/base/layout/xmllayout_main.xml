@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                   ohos:width="match_parent"
+                   ohos:height="match_parent"
+                   ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:test_one"
+        ohos:width="200vp"
+        ohos:height="match_content"
+        ohos:text_size="16fp"
+        ohos:margin="15vp"
+        ohos:padding="10vp"
+        ohos:background_element="$graphic:color_cyan"
+        ohos:text="Image Center"
+        ohos:text_alignment="left"/>
+
+    <Button
+        ohos:id="$+id:test_two"
+        ohos:width="300vp"
+        ohos:height="match_content"
+        ohos:text_size="16fp"
+        ohos:margin="15vp"
+        ohos:padding="10vp"
+        ohos:background_element="$graphic:color_cyan"
+        ohos:text="Image Zoom Center"
+        ohos:text_alignment="left"/>
+
+    <Button
+        ohos:id="$+id:test_three"
+        ohos:width="300vp"
+        ohos:height="match_content"
+        ohos:text_size="16fp"
+        ohos:margin="15vp"
+        ohos:padding="10vp"
+        ohos:background_element="$graphic:color_cyan"
+        ohos:text="Image Stretch"
+        ohos:text_alignment="left"/>
+
+    <Button
+        ohos:id="$+id:test_four"
+        ohos:width="300vp"
+        ohos:height="match_content"
+        ohos:text_size="16fp"
+        ohos:margin="15vp"
+        ohos:padding="10vp"
+        ohos:background_element="$graphic:color_cyan"
+        ohos:text="Rounded rect Image center"
+        ohos:text_alignment="left"/>
+
+</DirectionalLayout>
+
